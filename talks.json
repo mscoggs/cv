@@ -1,341 +1,63 @@
 [
   {
     "authors": [
-      "Luger, R."
+      "Scoggins, M. T."
     ],
-    "title": "Stellar Variability as a Statistical Process",
+    "title": "The DCBH formation mechanism for suppermassive black holes",
     "url": "",
-    "event": "Department Colloquium",
-    "location": "Institut fur Astrophysik Goettingen",
-    "pubdate": "2021-11-18"
+    "event": "Pizza Lunch Talk",
+    "location": "Columbia University",
+    "pubdate": "2021-12-01"
   },
   {
     "authors": [
-      "Luger, R."
+      "Davenport, J.",
+      "Tovar, G.",
+      "Scoggins, M. T.",
+      "Wallace, S."
     ],
-    "title": "An Introduction to Gaussian Process Regression",
-    "url": "https://github.com/LSSTC-DSFP/LSSTC-DSFP-Sessions/tree/master/Session13",
-    "event": "LSSTC Data Science Fellowship Program",
-    "location": "Online",
-    "pubdate": "2021-10-05",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Signal or Noise: My love-hate relationship with stellar variability",
-    "url": "https://drive.google.com/file/d/1v8VfR-d3Zku_9piP_2VpqC4rNHMylNsp/view?usp=sharing",
-    "event": "University of Michigan Astronomy Department Colloquium",
-    "location": "Ann Arbor, MI",
-    "pubdate": "2021-09-23",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Linear Models for TESS Systematics",
-    "url": "https://www.youtube.com/watch?v=0bvJ8OVJLrs&t=913s",
-    "event": "TESS Science Conference II",
-    "location": "Online",
-    "pubdate": "2021-08-05",
-    "icon": "\\faVideoCamera"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "A Bunch of Random Things I'm Working On (don't worry, they're all related to spherical harmonics)",
-    "url": "https://www.youtube.com/watch?v=K6dM5xPrzX0",
-    "event": "Center for Computational Astrophysics Lunch Talk",
-    "location": "New York, NY",
-    "pubdate": "2021-04-29",
-    "icon": "\\faVideoCamera"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Gaussian Processes for Stellar Variability",
+    "title": "Combining Kepler and TESS: 10 years of Stellar Flare Studies from Space",
     "url": "",
-    "event": "University of New South Wales AstroSeminar",
-    "location": "Sydney, Australia",
-    "pubdate": "2021-02-03"
+    "event": "American Astronomical Society",
+    "location": "",
+    "pubdate": "2019-9-01"
   },
   {
     "authors": [
-      "Luger, R."
+      "Scoggins, M. T.",
+      "Rahmani, A."
     ],
-    "title": "Gaussian Processes for Stellar Variability",
-    "url": "https://luger.dev/blog/2021-01-03.html",
-    "event": "Center for Computational Astrophysics Lunch Talk",
-    "location": "New York, NY",
-    "pubdate": "2020-11-05",
-    "icon": "\\faVideoCamera"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Toward Maps of Exoplanet Surfaces",
+    "title": "Simulating Strongly Correlated Fermions and Spins with an Optimally Controlled Superconducting Device",
     "url": "",
-    "event": "American Museum of Natural History Astronomy Colloquium",
-    "location": "New York, NY",
-    "pubdate": "2020-03-10"
+    "event": "American Physical Society",
+    "location": "WWU",
+    "pubdate": "2019-5-01"
   },
   {
     "authors": [
-      "Luger, R."
+      "Scoggins, M. T.",
+      "Rahmani, A."
     ],
-    "title": "Toward Maps of Exoplanet Surfaces",
-    "url": "https://phas.ubc.ca/toward-maps-exoplanet-surfaces",
-    "event": "University of British Columbia Astronomy Seminar",
-    "location": "Vancouver, Canada",
-    "pubdate": "2020-04-12"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Lots of Fun With TRAPPIST-1",
+    "title": "Simulating Strongly Correlated Fermions and Spins with an Optimally Controlled Superconducting Device",
     "url": "",
-    "event": "Stanford KIPAC Tea",
-    "location": "Stanford, CA",
-    "pubdate": "2020-02-07"
+    "event": "WWU Physics Symposium",
+    "location": "WWU",
+    "pubdate": "2019-5-01"
   },
   {
     "authors": [
-      "Luger, R."
+      "Olney, R.",
+      "Kounkel, M.",
+      "Schillinger, C.",
+      "Yin, Y.",
+      "Howard, E.",
+      "Covey, K.",
+      "Hutchinson, B."
     ],
-    "title": "Toward Maps of Exoplanet Surfaces",
-    "url": "https://kipac.stanford.edu/events/toward-maps-exoplanet-surfaces",
-    "event": "Stanford Astrophysics Colloquium",
-    "location": "Stanford, CA",
-    "pubdate": "2020-02-06"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Toward Maps of Exoplanet Surfaces",
-    "url": "https://github.com/rodluger/talks/tree/master/oxford",
-    "event": "Oxford Physics Department Seminar",
-    "location": "Oxford, UK",
-    "pubdate": "2020-01-15",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Toward Maps of Exoplanet Surfaces",
-    "url": "https://github.com/rodluger/talks/tree/master/yale",
-    "event": "Yale University Exoplanet Journal Club",
-    "location": "New Haven, CT",
-    "pubdate": "2019-10-08",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Toward Maps of Exoplanet Surfaces",
-    "url": "https://github.com/rodluger/talks/tree/master/villanova",
-    "event": "Villanova University Astronomy Department Colloquium",
-    "location": "Villanova, PA",
-    "pubdate": "2019-09-20",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Regularization and Ridge Regression",
-    "url": "https://github.com/LSSTC-DSFP/LSSTC-DSFP-Sessions/tree/master/Session10",
-    "event": "LSSTC Data Science Fellowship Program",
-    "location": "New York, NY",
-    "pubdate": "2019-09-12",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "An Introduction to Gaussian Process Regression",
-    "url": "https://github.com/LSSTC-DSFP/LSSTC-DSFP-Sessions/tree/master/Session9",
-    "event": "LSSTC Data Science Fellowship Program",
-    "location": "Pittsburgh, PA",
-    "pubdate": "2019-06-08",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "Gradient-based Inference Techniques for Exoplanet Light Curves",
-    "url": "https://keplerscience.arc.nasa.gov/data/KepSciConV/KeplerSciConV-Tues-pm-Luger.pdf",
-    "event": "Kepler Science Conference V",
-    "location": "Glendale, CA",
-    "pubdate": "2019-03-05",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Agol, E.",
-      "Foreman-Mackey, D.",
-      "Fleming, D.",
-      "others"
-    ],
-    "title": "STARRY: Analytic Occultation and Rotation Light Curves",
-    "url": "https://cloudproject.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53656312-f40f-4310-b84e-aa4c00fe40d1",
-    "event": "TESS Data Workshop",
-    "location": "Baltimore, MD",
-    "pubdate": "2019-02-11",
-    "icon": "\\faVideoCamera"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Lustig-Yaeger, J.",
-      "Agol, E."
-    ],
-    "title": "Probing the TRAPPIST-1 System with K2, JWST, and Beyond",
-    "url": "http://adsabs.harvard.edu/abs/2018AAS...23141002L",
-    "event": "AAS Meeting 231, \\textbf{410.02}",
-    "location": "National Harbor, MD",
-    "pubdate": "2018-01"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Lustig-Yaeger, J.",
-      "Agol, E."
-    ],
-    "title": "Probing the TRAPPIST-1 System with Planet-Planet Occultations",
-    "url": "https://www.cfa.harvard.edu/events/stars-planets-seminar?field_seminar_series_value=fall17",
-    "event": "Stars \\& Planets Seminar, Center for Astrophysics",
-    "location": "Cambridge, MA",
-    "pubdate": "2017-10-30"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Lustig-Yaeger, J.",
-      "Agol, E."
-    ],
-    "title": "Probing the TRAPPIST-1 System with Planet-Planet Occultations",
-    "url": "http://astro.psu.edu/news-and-events/events",
-    "event": "Dept. Colloquium, Penn State University",
-    "location": "State College, PA",
-    "pubdate": "2017-09-11"
-  },
-  {
-    "authors": [
-      "Luger, R."
-    ],
-    "title": "On the Evolution, Detection, and Characterization of Small Planets in the Habitable Zones of Low Mass Stars",
-    "url": "https://www.youtube.com/watch?v=gAItVkSzTNY&t=12s",
-    "event": "Dissertation Talk",
-    "location": "Seattle, WA",
-    "pubdate": "2017-08-11",
-    "icon": "\\faVideoCamera"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Kruse, E.",
-      "Foreman-Mackey, D.",
-      "Agol, E.",
-      "others"
-    ],
-    "title": "EVEREST Tutorial and Workshop",
-    "url": "https://github.com/rodluger/everest-workshop",
-    "event": "Kepler Science Conference IV",
-    "location": "Mountain View, CA",
-    "pubdate": "2017-06-21",
-    "icon": "\\faCloudDownload"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Sestovic, M.",
-      "Kruse, E.",
-      "Grimm, S.",
-      "others"
-    ],
-    "title": "TRAPPIST-1: A Seven-Planet Resonant Chain Unveiled by K2",
-    "url": "https://ac.arc.nasa.gov/pbl7zb5efqsl",
-    "event": "Kepler Science Conference IV",
-    "location": "Mountain View, CA",
-    "pubdate": "2017-06-21",
-    "icon": "\\faVideoCamera"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Barnes, R.",
-      "Deitrick, R.",
-      "others"
-    ],
-    "title": "Evolution of the Water Content of Proxima Centauri b",
-    "url": "http://www.hou.usra.edu/meetings/abscicon2017/pdf/3534.pdf",
-    "event": "Astrobiology Science Conference, \\textbf{3534}",
-    "location": "Mesa, AZ",
-    "pubdate": "2017-04-28"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Kruse, E.",
-      "Foreman-Mackey, D.",
-      "Agol, E.",
-      "others"
-    ],
-    "title": "Habitable Zone Planets with K2",
-    "url": "http://www.hou.usra.edu/meetings/abscicon2017/pdf/3338.pdf",
-    "event": "Astrobiology Science Conference, \\textbf{3338}",
-    "location": "Mesa, AZ",
-    "pubdate": "2017-04-26"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Bedell, M.",
-      "Foreman-Mackey, D.",
-      "Angus, R.",
-      "Hogg, D."
-    ],
-    "title": "Surface Maps of Stars and Exoplanets",
-    "url": "http://adsabs.harvard.edu/abs/2020AAS...23513201L",
-    "event": "AAS Meeting 235, \\textbf{132.01}",
-    "location": "Honolulu, HI",
-    "pubdate": "2020-01"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Barnes, R."
-    ],
-    "title": "Extreme Water Loss and Abiotic O$_2$ Buildup on Planets Throughout the Habitable Zones of M Dwarfs",
-    "url": "http://adsabs.harvard.edu/abs/2015AAS...22540704L",
-    "event": "AAS Meeting 225, \\textbf{407.04}",
-    "location": "Seattle, WA",
-    "pubdate": "2015-01"
-  },
-  {
-    "authors": [
-      "Luger, R.",
-      "Barnes, R.",
-      "Lopez, E.",
-      "Fortney, J.",
-      "others"
-    ],
-    "title": "Habitable Evaporated Cores: Converting Mini-Neptunes into Super-Earths in the Habitable Zone of M Dwarfs",
-    "url": "http://adsabs.harvard.edu/abs/2015AsBio..15...57L",
-    "event": "AAS Meeting 223, \\textbf{325.05}",
-    "location": "National Harbor, MD",
-    "pubdate": "2014-01"
+    "title": "Applying Deep Learning to Improve Stellar Parameters from APOGEE spectra",
+    "url": "",
+    "event": "WWU Physics Symposium",
+    "location": "WWU",
+    "pubdate": "2019-5-01"
   }
 ]

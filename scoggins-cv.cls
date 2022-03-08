@@ -1,4 +1,4 @@
-\ProvidesClass{luger-cv}[2017/11/02 CV class]
+\ProvidesClass{scoggins-cv}[2017/11/02 CV class]
 \NeedsTeXFormat{LaTeX2e}
 
 \DeclareOption{print}{\def\@cv@print{}}
@@ -84,11 +84,11 @@
 
 \newcommand{\header}{%
   {
-  \vspace*{-1in}
-  \hspace*{-2.125in}
+  \vspace*{-2in}
+  \hspace*{-2.5in}
   \centering
-  \includegraphics[width=0.95\paperwidth]{header.pdf}
-  \vspace*{-0.1in}
+  \includegraphics[width=1.05\paperwidth]{header.pdf}
+  \vspace*{-0.2in}
   }
 }
 

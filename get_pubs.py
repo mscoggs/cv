@@ -11,7 +11,7 @@ from tqdm import tqdm
 import numpy as np
 import time
 import sys
-
+import numpy as np
 __all__ = ["get_papers"]
 
 
@@ -20,6 +20,14 @@ def title_callback(word, **kwargs):
         return word
     else:
         return None
+
+
+def manual_edits(paper):
+    print(paper.title, paper.doctype)
+    if("Flare" in paper.title[0]):
+        paper.doctype = "note"
+    print(paper.doctype)
+    return paper
 
 
 def format_title(arg):
@@ -63,20 +71,9 @@ def format_authors(authors):
     return authors
 
 
-def manual_exclude(paper):
-    """Manual exclusions."""
-    # Remove DDS talks
-    if paper.pub == "LPI Contributions":
-        return True
-
-    # Remove DS Tuc duplicate
-    if "Four Newborn Planets" in format_title(paper.title[0]) and paper.doi is None:
-        return True
-
-    return False
-
 
 def get_papers(author, count_cites=True):
+    ads.config.token = os.getenv("ADS_DEV_KEY", "")
     papers = list(
         ads.SearchQuery(
             author=author,
@@ -115,16 +112,22 @@ def get_papers(author, count_cites=True):
         papers_that_cite_me = {}
 
     for paper in tqdm(papers):
+        index = [idx for idx, s in enumerate(paper.author) if 'coggins' in s]
+        if(len(index)> 1):
+            print("too many coggins in this list??")
+            for ind in index:
+                print(paper.author[ind])
+            exit(0)
+        my_name = paper.author[index[0]]
+        if("T" not in my_name): continue
+        # if not (
+        #     ("Scoggins, M. T." in paper.author) or
+        #     ("Scoggins, M. T." in paper.author) or
+        #     ("Scoggins, Matthew T" in paper.author)
+        # ):
+        #     continue
 
-        if not (
-            ("Luger, Rodrigo" in paper.author)
-            or ("Luger, R." in paper.author)
-            or ("Luger, R" in paper.author)
-        ):
-            continue
-
-        if manual_exclude(paper):
-            continue
+        paper = manual_edits(paper)
 
         aid = [
             ":".join(t.split(":")[1:])
@@ -206,7 +209,7 @@ if __name__ == "__main__":
     else:
         clobber = False
     if clobber or not os.path.exists("pubs.json"):
-        papers = get_papers("Luger, R", count_cites=True)
+        papers = get_papers("Scoggins, m", count_cites=True)
         with open("pubs.json", "w") as f:
             json.dump(papers, f, sort_keys=True, indent=2, separators=(",", ": "))
     else:

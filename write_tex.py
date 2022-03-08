@@ -30,13 +30,13 @@ def format_pub(args):
         fmt = "\\item[{{\\color{{numcolor}}\\scriptsize\\bfseries{0}}}] ".format(cites)
     else:
         fmt = "\\item[{{\\color{{numcolor}}\\scriptsize{0}}}] ".format(cites)
-    n = [i for i in range(len(pub["authors"])) if "Luger, R" in pub["authors"][i]][0]
-    pub["authors"][n] = "\\textbf{Luger, R.}"
+    n = [i for i in range(len(pub["authors"])) if "Scoggins" in pub["authors"][i]][0]
+    pub["authors"][n] = "\\textbf{Scoggins, M. T.}"
     if len(pub["authors"]) > 5:
         fmt += ", ".join(pub["authors"][:4])
         fmt += ", \etal"
         if n >= 4:
-            fmt += "\\ (including\\ \\textbf{Luger, R.})"
+            fmt += "\\ (including\\ \\textbf{Scoggins, M. T.}"
     elif len(pub["authors"]) > 1:
         fmt += ", ".join(pub["authors"][:-1])
         fmt += ", \\& " + pub["authors"][-1]
@@ -135,14 +135,14 @@ if __name__ == "__main__":
         elif p["title"] in AJ:
             p["accepted"] = "AJ"
 
-    pubs = [p for p in pubs if p["doctype"] in ["article", "eprint"]]
+    pubs = [p for p in pubs if p["doctype"] in ["article", "eprint", "note", "prep"]]
     ref = [p for p in pubs if p["doctype"] == "article"]
     unref = [p for p in pubs if p["doctype"] != "article"]
 
     # Compute citation stats
     ntotal = len(ref) + len(unref)
     npapers = len(ref)
-    nfirst = sum(1 for p in pubs if "Luger, R" in p["authors"][0])
+    nfirst = sum(1 for p in pubs if "Scoggins" in p["authors"][0])
     tmp = [p["citations"] if p["citations"] is not None else 0 for p in pubs]
     cites = sorted(tmp, reverse=True)
     ncitations = sum(cites)

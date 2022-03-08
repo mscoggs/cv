@@ -6,13 +6,14 @@ import sys
 
 
 __all__ = ["get_all_stars"]
+username = "mscoggs"
 
 
-def get_all_repos(minstars=3, maxpages=10):
+def get_all_repos(minstars=0, maxpages=10):
     params = []
     for page in range(1, maxpages + 1):
         req = Request(
-            "https://api.github.com/users/rodluger/repos?page=%d&per_page=100"
+            "https://api.github.com/users/"+username+"/repos?page=%d&per_page=100"
             % page
         )
         req.add_header("Accept", "application/vnd.github.v3.star+json")
@@ -25,7 +26,7 @@ def get_all_repos(minstars=3, maxpages=10):
             break
         else:
             params += par
-    
+
     repos = []
     for param in params:
         if int(param["stargazers_count"]) > minstars:
@@ -38,7 +39,7 @@ def get_repo_stars(repo, maxpages=10):
     params = []
     for page in range(1, maxpages + 1):
         req = Request(
-            "https://api.github.com/repos/rodluger/%s/stargazers?page=%d&per_page=100"
+            "https://api.github.com/repos/"+username+"/%s/stargazers?page=%d&per_page=100"
             % (repo, page)
         )
         req.add_header("Accept", "application/vnd.github.v3.star+json")

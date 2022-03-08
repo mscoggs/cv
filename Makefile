@@ -21,25 +21,20 @@ update:
 	python write_tex.py
 	python make_plots.py
 
-cv.pdf: cv.tex luger-cv.cls pubs.tex talks.tex
-	echo "\newcommand\citationskip{${CITATION_SKIP}}" > citationskip.tex
+cv.pdf: cv.tex scoggins-cv.cls pubs.tex talks.tex
+	#echo "\newcommand\citationskip{0.95}" > citationskip.tex
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv "\def\withpubs{}\def\withother{}\def\withtalks{}\input{cv}"
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv "\def\withpubs{}\def\withother{}\def\withtalks{}\input{cv}"
 
-cv.pdf: cv.tex luger-cv.cls pubs.tex talks.tex
-	echo "\newcommand\citationskip{${CITATION_SKIP}}" > citationskip.tex
-	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv "\def\withpubs{}\def\withother{}\def\withtalks{}\input{cv}"
-	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv "\def\withpubs{}\def\withother{}\def\withtalks{}\input{cv}"
-
-cv_nopubs.pdf: cv.tex luger-cv.cls
+cv_nopubs.pdf: cv.tex scoggins-cv.cls
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv_nopubs "\def\withother{}\def\withtalks{}\input{cv}"
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv_nopubs "\def\withother{}\def\withtalks{}\input{cv}"
 
-cv_onepage.pdf: cv.tex luger-cv.cls
+cv_onepage.pdf: cv.tex scoggins-cv.cls
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv_onepage "\def\onepage{}\input{cv}"
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=cv_onepage "\def\onepage{}\input{cv}"
 
-publications.pdf: cv_pubs.tex luger-cv.cls
+publications.pdf: cv_pubs.tex scoggins-cv.cls
 	echo "\newcommand\citationskip{${CITATION_SKIP_PUBS}}" > citationskip.tex
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=publications "\input{cv_pubs}"
 	${LATEX} -interaction=nonstopmode -halt-on-error -jobname=publications "\input{cv_pubs}"

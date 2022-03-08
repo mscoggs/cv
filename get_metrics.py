@@ -34,4 +34,3 @@ if __name__ == "__main__":
     else:
         clobber = False
     get_metrics(clobber=clobber)
-
