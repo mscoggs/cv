@@ -3,6 +3,7 @@
 *.out
 *.bbl
 *.blg
+*.pdf
 .DS_Store
 __pycache__
 talks.tex
@@ -16,3 +17,4 @@ bibcodes.txt
 pubs.json
 citedates.txt
 citationskip.tex
+pdf/*
