@@ -24,7 +24,7 @@ def title_callback(word, **kwargs):
 
 def manual_edits(paper):
     print(paper.title, paper.doctype)
-    if("Flare Rates" in paper.title[0]):
+    if("Flare" in paper.title[0]):
         paper.doctype = "note"
     print(paper.doctype)
     return paper
@@ -74,6 +74,7 @@ def format_authors(authors):
 
 def get_papers(author, count_cites=True):
     ads.config.token = os.getenv("ADS_DEV_KEY", "")
+    print(ads.config.token)
     papers = list(
         ads.SearchQuery(
             author=author,
@@ -96,7 +97,6 @@ def get_papers(author, count_cites=True):
             max_pages=100,
         )
     )
-    print("IT WORKS \n\n\n\n\n\n")
     dicts = []
 
     # Count the citations as a function of time

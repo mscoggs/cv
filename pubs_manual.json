@@ -1,38 +1,36 @@
-[
-  {
+[  {
     "arxiv": null,
     "authors": [
       "Scoggins, M.",
-      "Zoltan, H.",
-      "Wise, J.",
-      "Dudley, R."
+      "Kipping, D."
     ],
     "citations": 0,
-    "doctype": "prep",
-    "doi": null,
+    "doctype": "article",
+    "doi": "",
     "page": null,
-    "pub": null,
+    "pub": "(in prep)",
     "pubdate": "2030-00-00",
-    "title": "How long do high-redshift massive black hole seeds remain outliers in the back hole vs. host galaxy relations",
-    "url": null,
+    "title": "Lazarus Stars: Searching for signs of engineered stars in the Milky Way",
     "volume": null,
-    "year": "(In Prep)"
+    "year": "2024"
   },
   {
     "arxiv": null,
     "authors": [
-      "Roser, P.",
-      "Scoggins, M."
+      "Scoggins, M.",
+      "Ho, M.",
+      "Bryan, G.",
+      "Modi, C.",
+      "Doeser, L."
     ],
     "citations": 0,
-    "doctype": "prep",
-    "doi": null,
+    "doctype": "article",
+    "doi": "",
     "page": null,
-    "pub": null,
-    "pubdate": "2030-00-00",
-    "title": "Non-Quantum Behaviors of Hamilton-Jacobi Quantum Theory",
-    "url": null,
+    "pub": "(in prep)",
+    "pubdate": "2031-00-00",
+    "title": "Correcting halo catalogs generated from a field-level emulator",
     "volume": null,
-    "year": "(In Prep)"
+    "year": "2024"
   }
 ]

@@ -86,7 +86,7 @@ def format_talk(args):
     else:
         fmt = "\\item"
 
-    if not talk["url"] is None:
+    if not (talk["url"] == ""):
         fmt += "\\link{{{0}}}{{{1}}}".format(talk["url"], talk["title"])
     else:
         fmt += "\\emph{{{0}}}".format(talk["title"])
@@ -111,6 +111,9 @@ if __name__ == "__main__":
     with open("pubs_manual.json", "r") as f:
         pubs_manual = json.load(f)
     pubs = sorted(pubs + pubs_manual, key=itemgetter("pubdate"), reverse=True)
+    #pubs = sorted(pubs , key=itemgetter("pubdate"), reverse=True)
+
+
 
     # Manual hack: transfer citations from
     # exoplanet Zenodo (which we don't list)
@@ -135,7 +138,15 @@ if __name__ == "__main__":
         elif p["title"] in AJ:
             p["accepted"] = "AJ"
 
+    for p in pubs:
+        print(p["doctype"])
+        print(p)
+        print("DOC TYPE")
     pubs = [p for p in pubs if p["doctype"] in ["article", "eprint", "note", "prep"]]
+    for p in pubs:
+        print(p["doctype"])
+        print(p)
+        print("DOC TYPE")
     ref = [p for p in pubs if p["doctype"] == "article"]
     unref = [p for p in pubs if p["doctype"] != "article"]
 
@@ -149,11 +160,17 @@ if __name__ == "__main__":
     hindex = sum(c >= i for i, c in enumerate(cites))
     summary = (
         "Total Pubs & \\textbf{{{0}}}\\\\"
-        "Refereed & \\textbf{{{1}}}\\\\"
-        "First Author & \\textbf{{{2}}}\\\\"
-        "Citations & \quad \\textbf{{{3}}}\\\\"
-        "h-index & \\textbf{{{4}}}"
-    ).format(ntotal, npapers, nfirst, ncitations, hindex)
+        "First Author & \\textbf{{{1}}}\\\\"
+        "Citations & \quad \\textbf{{{2}}}\\\\"
+        "h-index & \\textbf{{{3}}}"
+    ).format(ntotal, nfirst, ncitations, hindex)
+    # summary = (
+    #     "Total Pubs & \\textbf{{{0}}}\\\\"
+    #     "Refereed & \\textbf{{{1}}}\\\\"
+    #     "First Author & \\textbf{{{2}}}\\\\"
+    #     "Citations & \quad \\textbf{{{3}}}\\\\"
+    #     "h-index & \\textbf{{{4}}}"
+    # ).format(ntotal, npapers, nfirst, ncitations, hindex)
     summary = (
         "\\begin{table}\\begin{tabular}{rr}" + summary + "\\end{tabular}\\end{table}"
     )

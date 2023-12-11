@@ -3,24 +3,51 @@
     "authors": [
       "Scoggins, M. T."
     ],
+    "title": "Lazarus Stars: Numerical investigations of stellar evolution with star-lifting",
+    "url": "https://astronomyontap.org/event/astronomy-on-tap-state-college-67/",
+    "event": "Astronomy on Tap",
+    "location": "Penn State",
+    "pubdate": "2023-6-20"
+  },
+  {
+    "authors": [
+      "Scoggins, M. T."
+    ],
+    "title": "How long do high redshift massive black hole seeds remain outliers in black hole versus host galaxy relations?",
+    "url": "https://ui.adsabs.harvard.edu/abs/2023AAS...24141901S/abstract",
+    "event": "AAS Winter 2023",
+    "location": "Seattle, WA",
+    "pubdate": "2023-1-13"
+  },
+  {
+    "authors": [
+      "Scoggins, M. T."
+    ],
+    "title": "Lazarus Stars",
+    "url": "",
+    "event": "Pizza Lunch Talk",
+    "location": "Columbia University",
+    "pubdate": "2022-11-01"
+  },
+  {
+    "authors": [
+      "Scoggins, M. T."
+    ],
+    "title": "Lazarus Stars: Numerical investigations of stellar evolution with star-lifting",
+    "url": "https://seec.gsfc.nasa.gov/Events/technosignatureSeminars.html",
+    "event": "NASA's Technosignature Seminar Series",
+    "location": "Online",
+    "pubdate": "2022-10-19"
+  },
+  {
+    "authors": [
+      "Scoggins, M. T."
+    ],
     "title": "The DCBH formation mechanism for suppermassive black holes",
     "url": "",
     "event": "Pizza Lunch Talk",
     "location": "Columbia University",
     "pubdate": "2021-12-01"
-  },
-  {
-    "authors": [
-      "Davenport, J.",
-      "Tovar, G.",
-      "Scoggins, M. T.",
-      "Wallace, S."
-    ],
-    "title": "Combining Kepler and TESS: 10 years of Stellar Flare Studies from Space",
-    "url": "",
-    "event": "American Astronomical Society",
-    "location": "",
-    "pubdate": "2019-9-01"
   },
   {
     "authors": [
@@ -31,7 +58,7 @@
     "url": "",
     "event": "American Physical Society",
     "location": "WWU",
-    "pubdate": "2019-5-01"
+    "pubdate": "2019-6-01"
   },
   {
     "authors": [
