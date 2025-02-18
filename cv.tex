@@ -26,14 +26,14 @@
 
 \usepackage{ragged2e}
 
-\usepackage{marginnote}
+%\usepackage{marginnote}
 \usepackage{geometry}
 \geometry{
   verbose,
-  tmargin=2.5cm,
+  tmargin=2cm,
   bmargin=2cm,
-  lmargin=5.2cm,
-  rmargin=2.5cm
+  lmargin=2cm,
+  rmargin=2cm
 }
 \def\faEnvelope{{\FA\symbol{"F0E0}}}
 \def\faGithub{{\FA\symbol{"F09B}}}
@@ -48,28 +48,28 @@
 
 \begin{document}
 
-\header
+%\header
 \section{Matthew T. Scoggins}
 %----------------------------------------------------------------------------------------
 %	Contact
 %----------------------------------------------------------------------------------------
 %\iffalse
-\aside{Contact}{-.5035}{
+%\aside{Contact}{-.5035}{
     %
-    \vspace*{-0.1cm}
+%    \vspace*{-0.1cm}
     %
     %
-    \href{https://github.com/mscoggs}{{\addfontfeature{Color=linkblue}github.com/mscoggs}\ \faGithub}\\[0.5em]
+%    \href{https://github.com/mscoggs}{{\addfontfeature{Color=linkblue}github.com/mscoggs}\ \faGithub}\\[0.5em]
     %
-    \href{mscoggs.github.io}{{\addfontfeature{Color=linkblue}mscoggs.github.io}\ \faHandPointerO}\\[0.5em]
+%    \href{mscoggs.github.io}{{\addfontfeature{Color=linkblue}mscoggs.github.io}\ \faHandPointerO}\\[0.5em]
     %
-    \href{tel:360-325-3398}{{\addfontfeature{Color=linkblue}+1 (360) 325 3398}\ \faPhone}\\[0.5em]
-    \href{mailto:mts2188@columbia.edu}{{\addfontfeature{Color=linkblue}mts2188@columbia.edu}\ \faEnvelope}\\[.01em]
+ %   \href{tel:360-325-3398}{{\addfontfeature{Color=linkblue}+1 (360) 325 3398}\ \faPhone}\\[0.5em]
+  %  \href{mailto:mts2188@columbia.edu}{{\addfontfeature{Color=linkblue}mts2188@columbia.edu}\ \faEnvelope}\\[.01em]
     %
     %\href{https://www.astro.columbia.edu/content/matthew-scoggins}{{\addfontfeature{Color=linkblue}\small Astronomy Department }\\
     %    \href{https://www.astro.columbia.edu/content/matthew-scoggins}{{\addfontfeature{Color=linkblue}\small Columbia University}}\ \faMapMarker}
     %
-}
+%}
 %\fi
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -108,19 +108,19 @@
 
 \end{entrylist}
 
-\vspace{-0.3cm}
+\vspace{-0.5cm}
 %----------------------------------------------------------------------------------------
 %	ABOUT
 %----------------------------------------------------------------------------------------
 %\vspace{-0.8cm}
 %\iffalse
 
-\aside{About Me}{2.035}{
-    \footnotesize
-    I am a third-year PhD Student in the Department of Astronomy at Columbia.
-    My research interests span most areas of computational astrophysics and cosmology.
-    Specifically, I am interested in questions involving supermassive black holes, the early universe, and Population III stars.
-}
+%\aside{About Me}{2.035}{
+%    \footnotesize
+%    I am a third-year PhD Student in the Department of Astronomy at Columbia.
+%    My research interests span most areas of computational astrophysics and cosmology.
+%    Specifically, I am interested in questions involving supermassive black holes, the early universe, and Population III stars.
+%}
 %\fi
 %----------------------------------------------------------------------------------------
 %	POSITIONS
@@ -151,13 +151,6 @@
   {Graduate Teaching Assistant}
   {Columbia University, New York, NY}
   {%
-      \vspace{-1em}
-      \begin{list}{{\color{numcolor}$-$}}{\cvlist}
-        \item Spring 2023: TA for Astro I Lab
-        \item Fall 2022: Observational TA for Astro I Lab
-        \item Spring 2022: Astrophysics II for Mary Putman
-        \item Fall 2021: Another Earth for Caleb Scharf
-      \end{list}
   }
 
     %------------------------------------------------
@@ -166,14 +159,6 @@
     {Undergraduate Researcher}
     {Western Washington University, Bellingham, WA}
     {%
-        \vspace{-1em}
-        \begin{list}{{\color{numcolor}$-$}}{\cvlist}
-            \item Projects on machine learning applied to astronomy, flare cycles,
-            quantum dynamics, and quantum foundations.
-            \item Developed 2 open source simulators, \texttt{no\_wave\_qm} which simulates
-            a no-wave approach to QM and \texttt{qubit\_simulation} which applies Monte-Carlo
-            methods to find paths which optimally prepare a desired state.
-        \end{list}
     }
 
 \end{entrylist}
@@ -183,6 +168,7 @@
 %	AWARDS
 %----------------------------------------------------------------------------------------
 %\iffalse
+\vspace{-0.5cm}
 \section{Honors \& Awards}
 
 \begin{entrylist}
@@ -291,8 +277,8 @@
 %\fi
 
 %\iffalse
-\vspace{2.5cm}
 
+\vspace{-0.4cm}
 \section{Software}
 
 \begin{entrylist}
@@ -341,7 +327,7 @@
 %----------------------------------------------------------------------------------------
 %	STUDENTS
 %----------------------------------------------------------------------------------------
-%\iffalse
+\iffalse
 \vspace{-0.5cm}
 
 
@@ -378,22 +364,23 @@
 
 
 
-%\fi
+\vspace{-0.5cm}
+\fi
 %\iffalse
 \section{Teaching \& Service}
 \begin{entrylist}
-\vspace{-0.3cm}
+\vspace{-0.5cm}
 
 
     \entry
     {2023}
-    {Journal Reviewer: {\normalfont ApJ}} 
+    {Journal Reviewer: {\normalfont ApJ, A\&A}}
     {}
     {}
     %------------------------------------------------
     \entry
     {2023-}
-	{Associate Director: {\normalfont Science Research Mentoring Program}}
+	{Associate Director: {\normalfont Student Training in Astronomy Research (STARs)}}
     {Columbia University}
 	{}
     %------------------------------------------------
@@ -419,10 +406,6 @@
     {Physics Teaching Assistant}
     {WWU}
     {%
-        \vspace{-1em}
-        \begin{list}{{\color{numcolor}$-$}}{\cvlist}
-            \item Responsible for facilitating/grading a section of the weekly lab for Physics w/ Calc 161-163, 220, and Tools and Data Analysis 322
-        \end{list}
     }
 
     %------------------------------------------------
@@ -440,10 +423,6 @@
     {Physics Study Group Facilitator}
     {WWU}
     {%
-        \vspace{-1em}
-        \begin{list}{{\color{numcolor}$-$}}{\cvlist}
-            \item Responsible for creating content and leading a 2 hour weekly study group for Physics w/ Calc 161-163
-        \end{list}
     }
 
     %------------------------------------------------
@@ -453,10 +432,6 @@
     {Math Tutoring Fellow}
     {WWU}
     {%
-        \vspace{-1em}
-        \begin{list}{{\color{numcolor}$-$}}{\cvlist}
-            \item Responsible for tutoring a majority of the undergraduate math classes, Calculus I up to Intro. to Abstract Algebra.
-        \end{list}
     }
 
 
@@ -465,42 +440,54 @@
 %STUDENTS
 
 
-\vspace{0.3cm}
+\vspace{-0.3cm}
 
 %\iffalse
   \section{Mentoring}
       \begin{entrylist}
+      %------------------------------------------------
+  \entry
+  {2024-}
+    {STARs program}
+    {}
+  {%
+\vspace{-1em}
+\begin{list}{{\color{numcolor}$-$}}{\cvlist}
+\item Co-advising with another Graduate student, Daniel Yahalomi
+\item Three highschool students are using NASA's Meteoroid Engineering Model (MEM) code to measure
+ the impact rates of debris on the lunar surface,
+ with the goal of determining the shielding needed for the Artemis mission.
+
+\end{list}
+  }
+  %------------------------------------------------
 
 	    \entry
 	    {2023}
-	      {Undergraduate Students} 
+	      {Undergraduate Students}
 	      {}
 	    {%
 		\vspace{-1em}
 		\begin{list}{{\color{numcolor}$-$}}{\cvlist}
-		\item Andrea Dubbels - Abnormal Photometry in the GAIA DR3 Catalog (in prep)
+		\item Andrea Dubbels - Abnormal Photometry in the GAIA DR3 Catalog
 
 		\end{list}
 	    }
           %------------------------------------------------
 	    \entry
-	    {2023}
-	      {High School Students} 
+	    {2023-2025}
+	      {High School Students}
 	      {}
 	    {%
 		\vspace{-1em}
 		\begin{list}{{\color{numcolor}$-$}}{\cvlist}
-		\item Students took part in 2-12 month projects designed to expose them to astrophysics and research skills. Some projects have been (or will be) submitted to high school journals.
-		    \item Junhao Lei - A review of dark matter (accepted, International Journal of High School Research)
+		\item Students took part in 2-12 month projects designed to expose them to research, typically within astronomy. Some projects have been (or will be) submitted to high school journals.
+		    \item Junhao Lei (early acceptance to Cornell) - A review of dark matter (accepted, International Journal of High School Research)
 		    \item Iulia Achim - Exploring the potential for habitability around a black hole (under review, Journal of Emerging Investigators)
-		    \item Estefania Olaiz - A new triple star system (in prep).
-		    \item Pratham Aggarwal - The origins of supermassive black holes (in prep)
-		    \item Jiarui Shi - Could Earth's transit be detected by known exoplanets? (in prep)
-		    \item Hiep Duc Nguyen - "missing mass" and the need for dark matter
-		    \item Jai Nair - The search for biosignatures
-		    \item Weibo Qin - Do astrological signs correlate with personality? 
-		    \item Elenes Diana - A review of black hole vs. host galaxy relations
-		    \item William Li - Using ML to predict Solar Cycles
+        \item Jai Nair - Searching for biosignatures in nearby exoplanets (in prep)
+        \item Estefania Olaiz - A new triple star system.
+		    \item Pratham Aggarwal - The origins of supermassive black holes
+		    \item Jiarui Shi, Hiep Duc Nguyen, Weibo Qin, Elenes Diana, William Li
 
 		\end{list}
 	    }
@@ -564,11 +551,11 @@
 %----------------------------------------------------------------------------------------
 %\iffalse
 
-\vspace{0.5cm}
-\aside{stats}{0.075}{
-    \vspace*{0.5em}
-    \input{pubs_summary}
-}
+%\vspace{0.5cm}
+%\aside{stats}{0.075}{
+%    \vspace*{0.5em}
+%    \input{pubs_summary}
+%}
 %\fi
 
 
@@ -601,17 +588,17 @@
 %	TALKS
 %----------------------------------------------------------------------------------------
 
-\vspace{-0.5cm}
+%\vspace{-0.5cm}
 
-\ifdefined \withtalks
+%\ifdefined \withtalks
 
-    \section{Selected Talks}
+%    \section{Selected Talks}
     %
-    \vspace{-0.3cm}
+%    \vspace{-0.3cm}
 
-    \begin{list}{}{\pubslist}
-        \input{talks}
-    \end{list}
-\fi
+%    \begin{list}{}{\pubslist}
+%        \input{talks}
+%    \end{list}
+%\fi
 
 \end{document}

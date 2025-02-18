@@ -1,4 +1,21 @@
-[  {
+[ {
+    "arxiv": null,
+    "authors": [
+      "Scoggins, M.",
+      "Haiman, Z.",
+      "Paucci, F"
+    ],
+    "citations": 0,
+    "doctype": "article",
+    "doi": "",
+    "page": null,
+    "pub": "(in prep)",
+    "pubdate": "2030-00-00",
+    "title": "Assessing the likelihood of Leo I hosting a Heavy Seed Black Hole",
+    "volume": null,
+    "year": "2025"
+  },
+  {
     "arxiv": null,
     "authors": [
       "Scoggins, M.",
@@ -10,27 +27,28 @@
     "page": null,
     "pub": "(in prep)",
     "pubdate": "2030-00-00",
-    "title": "Lazarus Stars: Searching for signs of engineered stars in the Milky Way",
+    "title": "Lazarus Stars: A method for detecting engineered stars in the Milky Way",
     "volume": null,
-    "year": "2024"
+    "year": "2025"
   },
   {
     "arxiv": null,
     "authors": [
       "Scoggins, M.",
       "Ho, M.",
-      "Bryan, G.",
-      "Modi, C.",
-      "Doeser, L."
+      "Villaescusa-Navarro, F.",
+      "Jamieson, D.",
+      "Doeser, L.",
+      "Bryan, G."
     ],
     "citations": 0,
     "doctype": "article",
     "doi": "",
     "page": null,
-    "pub": "(in prep)",
+    "pub": "Submitted to MNRAS",
     "pubdate": "2031-00-00",
-    "title": "Correcting halo catalogs generated from a field-level emulator",
+    "title": "Learning the Universe: 3Gpc/h Tests of a Field Level N-body Simulation Emulator",
     "volume": null,
-    "year": "2024"
+    "year": "2025"
   }
 ]
